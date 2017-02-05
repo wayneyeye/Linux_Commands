@@ -33,13 +33,13 @@
 
 **.** = equivalent to ctrl + r
 
-*yy* = yank(copy) the current line
+**yy** = yank(copy) the current line
 
-*[number]yy* = yank(copy) the next [number] line
+**[number]yy** = yank(copy) the next [number] line
 
-*p* = paste right behind the current line
+**p** = paste right behind the current line
 
-*P* = paste right before the current line
+**P** = paste right before the current line
 
 
 
