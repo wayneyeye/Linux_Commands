@@ -41,6 +41,15 @@
 
 **P** = paste right before the current line
 
+#### Editing mode
+
+**r,R** = switch to replace mode
+
+#### Command mode
+
+**:set nu** = display line numbers
+
+**:set nonu** = cancel line numbers
 
 
 
