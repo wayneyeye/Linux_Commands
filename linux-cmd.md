@@ -37,3 +37,20 @@ shutdown with broadcasting
 ```
 shutdown 'The system will reboot'
 ```
+Switch to different modes
+- poweroff
+```
+init 0
+```
+- cmd line
+```
+init 3
+```
+- with gui
+```
+init 5
+```
+- reboot
+```
+init 6
+```
