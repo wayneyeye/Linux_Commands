@@ -54,3 +54,11 @@ init 5
 ```
 init 6
 ```
+
+### Make iso image
+```
+mkisofs -r -v -o /tmp/system.img /root /home /etc
+#-o iso filename
+#-r recommended to add for linux sys backup
+#-v display progress
+```
