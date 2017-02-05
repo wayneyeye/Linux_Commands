@@ -51,6 +51,31 @@
 
 **:set nonu** = cancel line numbers
 
+#### Visual mode
+**v** = switch to visual mode (visual block)
+
+**y** = yank the selection
+
+**d** = delete the selection
+
+**p** = paste the clipboard
+
+#### Multi-file&window mode
+
+**- Multi-file mode**
+
+**vim [file1] [file2]**
+
+**in cmd mode**
+
+**:files** = check files
+
+**:n** = go to the next file
+
+**:N** = go to the previous file
+
+
+
 
 
 
