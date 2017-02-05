@@ -82,3 +82,5 @@ df -h /mnt
 ll /mnt
 umount /mnt
 ```
+### Others
+use dd to make an identical disk partition
