@@ -66,13 +66,18 @@
 
 **vim [file1] [file2]**
 
-**in cmd mode**
-
 **:files** = check files
 
 **:n** = go to the next file
 
 **:N** = go to the previous file
+
+**- Multi-window mode**
+
+**:sp [filename]** = spilit window [to open filename]
+
+**ctrl + w** = switch between windows
+
 
 
 
