@@ -21,3 +21,19 @@ network status
 ```
 netstat -a
 ```
+backgroud processes
+```
+ps -aux
+```
+write RAM data into HD then reboot
+```
+sync; sync; reboot;
+```
+shutdown immediately
+```
+shutdown -h now
+```
+shutdown with broadcasting
+```
+shutdown 'The system will reboot'
+```
