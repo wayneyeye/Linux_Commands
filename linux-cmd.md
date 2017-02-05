@@ -62,3 +62,23 @@ mkisofs -r -v -o /tmp/system.img /root /home /etc
 #-r recommended to add for linux sys backup
 #-v display progress
 ```
+mount iso file
+```
+mount -o loop /tmp/system.img /mnt
+```
+
+### Record an optical disk
+check the writer/burner
+```
+cdrecord -scanbus dev=ATA
+```
+sop
+```
+cdrecord -v dev=ATA:1,1,0 blank=fast #remove the old contents you will be removing dvd-rw yourself
+cdrecord -v dev=ATA:1,1,0 fs=8m -dummy -data /tmp/system.img #burn a cdrom
+cdrecord -v dev=ATA:1,1,0 fs=8m -data -sao driveropts=burnfree /tmp/system.img #burn a dvdrom
+mount -t iso9660 /dev/cdrom /mnt #default format for cd is iso9660
+df -h /mnt
+ll /mnt
+umount /mnt
+```
