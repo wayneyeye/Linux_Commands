@@ -1,6 +1,6 @@
 ### Linux Bash Scripts
 
-#### Type
+#### Type (similar to which)
 
 ```
 type [cmd_name] #to see if a cmd is internal to bash
