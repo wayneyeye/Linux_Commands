@@ -26,5 +26,7 @@ echo $version #x.x.xxxxxx
 var3="$var1":home/bin #extend a variable
 
 unset var1 var2 var3# no $ sign!
+
+export var1 #make var1 globally available to a new shell process
 ```
 
