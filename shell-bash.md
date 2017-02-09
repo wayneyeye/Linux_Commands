@@ -30,4 +30,11 @@ unset var1 var2 var3# no $ sign!
 export var1 #make var1 globally available to a new shell process
 ```
 
+#### env and environmental variables
+```
+env #check all env variables
+
+set #check all env variables + user defined variables
+
+``` 
 
