@@ -69,3 +69,28 @@ var[1]=small
 var[2]=big
 echo ${var[1]} ${var[2]} 
 ```
+
+#### ulimit
+```
+ulimit -a #check all your system resource limits
+```
+
+#### delete / replace the content of a variable
+```
+path=${PATH}
+echo $path
+#delete
+echo ${path#/*kerberos/bin:} # #delete the shortest match from beginning
+echo ${path##/*kerberos/bin:} # #delete the longest match from beginning
+echo ${path%/*kerberos/bin:} # #delete the shortest match from end
+echo ${path%%/*kerberos/bin:} # #delete the longest match from end
+
+#replace
+echo ${path/sbin/SBIN} replace sbin with SBIN
+echo ${path//sbin/SBIN} replace ALL sbin with SBIN
+
+#test-replace
+username=${username-root} # assign root to username if the latter is not defined
+username=${username:-root} # assign root to username if the latter is not defined or empty
+```
+
