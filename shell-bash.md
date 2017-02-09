@@ -38,3 +38,34 @@ set #check all env variables + user defined variables
 
 ``` 
 
+#### locale
+```
+locale -a #check all available locale settings
+
+set #check all env variables + user defined variables
+
+``` 
+
+#### read variable thru keyboard input
+```
+read [-pt] variablename
+#-p prompt
+#-t timeout
+```
+
+#### declare / typeset
+```
+declare [-aixr] variablename
+#-a array
+#-i integer
+#-x export
+#-r readonly
+#-p check var type
+```
+
+#### array
+```
+var[1]=small
+var[2]=big
+echo ${var[1]} ${var[2]} 
+```
