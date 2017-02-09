@@ -94,3 +94,16 @@ username=${username-root} # assign root to username if the latter is not defined
 username=${username:-root} # assign root to username if the latter is not defined or empty
 ```
 
+#### alias / unalias
+```
+alias lm='ls -l | more'
+alias rm='rm -i'
+
+unalias lm
+```
+
+#### history
+```
+history [number]
+!n #execute the n th cmd 
+```
