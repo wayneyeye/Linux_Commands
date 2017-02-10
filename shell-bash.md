@@ -138,3 +138,32 @@ find /home -name .bashrc &>list_right #write all to one file
 cat > catfile < ~/.bashrc #use file to replace keyboard input
 cat > catfile <<"eof"  #use "eof" to terminate key in process
 ```
+
+#### ||   &&
+```
+cmd A && cmd B   #if A returns 0 then execute B 
+cmd A || cmd B   #if A does not return 0 then execute B
+cmd 1 && cmd 2 || cmd 3 # important logic
+```
+
+#### cut
+```
+cut 
+-d 'delimiter'
+-f fetch 
+-c after nth char (for each line)
+
+export | cut -c 12-
+echo $PATH | cut -d ':' -f 5
+```
+
+#### grep (get matched lines)
+```
+grep 
+-a read binary file
+-c count match numbers
+-i ignore caps
+-n line number
+-v reverse output (find no match)
+--color=auto highlight matches
+```
