@@ -119,3 +119,22 @@ history [number]
 source ~/.bashrc # read environmental settings 
 ```
 
+#### wildcard
+```
+* 0 to many chars
+? only one char
+[] one of them
+[a-z] alphabet
+[^] not in 
+```
+
+#### stdin stdout redirect
+```
+#stdout
+find /home -name .bashrc 1>list_right 2>list_error  #1>correct_info  2>error_info
+2>dev/null  #black-hole
+find /home -name .bashrc &>list_right #write all to one file
+#stdin
+cat > catfile < ~/.bashrc #use file to replace keyboard input
+cat > catfile <<"eof"  #use "eof" to terminate key in process
+```
