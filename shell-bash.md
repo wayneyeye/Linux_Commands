@@ -107,3 +107,15 @@ unalias lm
 history [number]
 !n #execute the n th cmd 
 ```
+
+#### bash login banners
+```
+/etc/issue
+/etc/issue.net
+```
+
+#### source .bashrc (non-login shell)
+```
+source ~/.bashrc # read environmental settings 
+```
+
