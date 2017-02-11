@@ -189,3 +189,32 @@ wc
 -m characters
 ```
 
+#### tee (T shape redirect)
+```
+tee (make a copy of the stdout flow to device and continue the pipeline)
+-a append (similar to >>)
+```
+#### tr
+```
+tr
+-d delete keyword
+-s substitue
+
+last | tr '[a-z]' '[A-Z]' # to uppercase
+```
+
+#### dos2UNIX, UNIX2dos
+```
+UNIX2dos #remove ^M
+dos2UNIX #replace CRLF with ^M
+file filename #check text file properties
+```
+
+#### join
+```
+join [-ti12] file 1 file2
+-t delimiter default: tab
+-i ignore cases
+-1 file1's col number
+-2 file2's col number
+```
