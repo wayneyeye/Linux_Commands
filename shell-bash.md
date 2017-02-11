@@ -167,3 +167,25 @@ grep
 -v reverse output (find no match)
 --color=auto highlight matches
 ```
+
+#### sort
+```
+sort
+-f ignore cases
+-b ignore leading blanks
+-M by month name (JAN DEC ...)
+-n by numeric
+-r reverse order
+-u dedupe
+-t delimiter default is tab
+-k by which column used with -t
+```
+
+#### wc (word count)
+```
+wc
+-l lines
+-w english words
+-m characters
+```
+
