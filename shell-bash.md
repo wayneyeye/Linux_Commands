@@ -210,11 +210,18 @@ dos2UNIX #replace CRLF with ^M
 file filename #check text file properties
 ```
 
-#### join
+#### join (join matched records into one line)
 ```
 join [-ti12] file 1 file2
 -t delimiter default: tab
 -i ignore cases
 -1 file1's col number
 -2 file2's col number
+```
+
+#### paste (combine rows in multiple files)
+```
+paste [-d-]
+-d delimiter
+-- stdin (can use stdin as one source)
 ```
