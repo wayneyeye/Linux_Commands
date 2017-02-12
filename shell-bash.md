@@ -240,10 +240,11 @@ split [-bl] file PREFIX
 PREFIX prefix of new files
 ```
 
-xargs
+#### xargs
 ```
 xargs [-epn] command  #useful when no pipeline supported
 -e eof string
 -p prompt mode
 -n number of args piped each time
 ```
+
