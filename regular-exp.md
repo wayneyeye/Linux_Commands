@@ -37,8 +37,10 @@ grep -vn --color=auto 'the' regular_express.txt  #reverse results
 grep -ni --color=auto 'the' regular_express.txt   #ignore cases
 grep -n --color=auto 't[ae]st' regular_express.txt  # [] means one char only
 grep -n --color=auto '[^g]oo' regular_express.txt   #fetch lines with oo not leaded by g
-
-
-
+grep -n --color=auto '[[:digit:]]' regular_express.txt #[]!!!!!
+grep -n --color=auto '^the' regular_express.txt  #start of line
+grep -n --color=auto '\.$' regular_express.txt  #\ to escape $ means end of line
+grep -n --color=auto '^$' regular_express.txt   #fetch blank lines
+grep -n --color=auto 'o\{2\}' regular_express.txt   #need to escape { and } in linux shell
 ```
 
