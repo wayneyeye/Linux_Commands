@@ -44,3 +44,34 @@ grep -n --color=auto '^$' regular_express.txt   #fetch blank lines
 grep -n --color=auto 'o\{2\}' regular_express.txt   #need to escape { and } in linux shell
 ```
 
+#### sed (stream editor)
+```
+sed [-nefr] operations [file]
+-n quiet mode (only display changed rows)
+-f filename  read operations from filename
+-r extended regex support
+-i write file directly !!!
+```
+
+#### sed operations
+```
+[n1[,n2]] function
+
+
+
+function:
+$: last line
+a: append(after)
+c: replace n1 to n2 to
+d: delete
+
+sed '/old/d'
+
+i: insert(before)
+p: print 
+s: replace using regex
+
+sed 's/old/new/g' #replace
+```
+
+
