@@ -225,3 +225,25 @@ paste [-d-]
 -d delimiter
 -- stdin (can use stdin as one source)
 ```
+
+#### expand (convert tabs to spaces)
+```
+-t number of characters apart (default 1 tab= 8 char)
+
+```
+
+#### split
+```
+split [-bl] file PREFIX 
+-b divide into files by size
+-l divide into files by lines
+PREFIX prefix of new files
+```
+
+xargs
+```
+xargs [-epn] command  #useful when no pipeline supported
+-e eof string
+-p prompt mode
+-n number of args piped each time
+```
