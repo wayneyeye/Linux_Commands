@@ -248,3 +248,23 @@ xargs [-epn] command  #useful when no pipeline supported
 -n number of args piped each time
 ```
 
+#### printf
+```
+printf 'format' content #printf does not support pipeline stdin
+printf '%s\t %s\t %10s\t %5i\t %8.2f\t \n' $(cat printf.txt)
+%ns  #string
+%ni  #integer
+%N.nf  #float
+```
+
+#### awk
+```
+#column select
+awk 'BEGIN {FS=":"} $3 < 10 {print $1 "\t" $3}'
+FS  #delimiter
+
+#calculation
+awk 'NR==1{printf "%10s %10s %10s %10s\n", $1, $2, "Total"}
+NR>=2{total=$2+$3;printf "%10s %10d %10d %10d %10.2f\n",$1, $2, total}'
+
+```
