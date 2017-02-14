@@ -268,3 +268,18 @@ awk 'NR==1{printf "%10s %10s %10s %10s\n", $1, $2, "Total"}
 NR>=2{total=$2+$3;printf "%10s %10d %10d %10d %10.2f\n",$1, $2, total}'
 
 ```
+
+#### test (information queries in linux)
+```
+test -options filename
+-e exist?
+-f file?
+-d dir?
+-z string if null?
+-a and
+-o or
+! not
+
+#alternative using info query
+[ -z "$HOME" ] same as test -z $HOME need space in [  ]!!!
+```
