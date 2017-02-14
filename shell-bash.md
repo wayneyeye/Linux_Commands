@@ -283,3 +283,26 @@ test -options filename
 #alternative using info query
 [ -z "$HOME" ] same as test -z $HOME need space in [  ]!!!
 ```
+
+
+#### conditional statements
+```
+if [ condition ]; then
+
+fi              #use fi to end if clause
+
+if [ condition ]; then
+
+else
+
+fi
+
+if [ condition1 ]; then
+
+elif [ condition2 ]; then
+else
+
+fi
+```
+
+
