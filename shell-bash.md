@@ -323,3 +323,49 @@ exit 1
 
 esac
 ```
+
+#### function
+```
+# functions need to be declared at the begining of a script
+function funname() {
+	
+}
+
+function can take input parameters like script using $1 $2 ...
+```
+
+#### loops
+```
+while [ condition ]
+do
+
+done
+
+until [ condition ]
+do 
+
+done
+
+for var in con1 con2 con3 ...
+do
+
+done 
+
+for var in (seq 1 100)
+do 
+
+done
+
+for ((i=1;i<=100;i=i+1))
+do
+
+done
+```
+
+#### shell-scripts syntax check and debugging
+```
+bash [-nvx] scriptname
+-n: check syntax no run
+-v: print out script before execution
+-x: step by step execution! very handy!!
+```
