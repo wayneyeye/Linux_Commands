@@ -285,7 +285,9 @@ test -options filename
 ```
 
 
-#### conditional statements
+### conditional statements
+
+#### if else
 ```
 if [ condition ]; then
 
@@ -305,4 +307,19 @@ else
 fi
 ```
 
+#### case esca
+```
+case $varname in
+"content1")
 
+;;        #double semicolons
+"content2")
+
+;;
+*) #other situations! wildcard indeed!!!
+
+exit 1
+;;
+
+esac
+```
