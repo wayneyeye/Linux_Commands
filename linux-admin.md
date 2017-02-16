@@ -18,3 +18,26 @@ passwd username
 ```
 passwd
 ```
+- show password setting
+```
+passwd -S username
+```
+
+**chage**
+- list password details for user
+```
+chage -l username
+```
+- force resetting password after login immediately
+```
+chage -d 0 username
+```
+
+**usermod**
+
+**userdel**
+
+**finger**
+**chfn**
+**chsh**
+**id**
