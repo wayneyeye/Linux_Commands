@@ -16,3 +16,15 @@ batch TIME
 #admin the same as atq, atrm...
 ```
 
+#### crontab
+```
+crontab
+-e edit
+-l list
+-r remove tasks! be careful when deleting crontab tasks!!!!
+```
+when in the editing mode
+```
+59 23 1 5 * mail root </home/test.txt
+*/5 * * * * mail root </home/test.txt #executes every 5 minutes
+```
