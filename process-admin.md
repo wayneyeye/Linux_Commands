@@ -48,4 +48,9 @@ uptime  # check system uptime
 netstat # check network status
 dmesg # display message from kernel
 vmstat # display sys resource change
+ls /proc # to view inmemory data
+fuser # check which process is using a certain file
+lsof # check which files are opened by a process
+pidof # check pid of a process
 ```
+
