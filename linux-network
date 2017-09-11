@@ -1,0 +1,9 @@
+#ping 
+ping linuxcommand.org
+
+#trace route
+traceroute slashdot.org
+
+#check net stats
+netstat -ie
+netstat -r

@@ -1,0 +1,6 @@
+#list installed packages
+dpkg --list
+#check if a certain app is installed
+dpkg --status package_name
+#look up package in standard_repository
+apt-cache search search_string
