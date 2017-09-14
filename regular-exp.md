@@ -1,6 +1,6 @@
 ## Regular Expressions for Linux
 
-#### grep (advanced)
+#### grep (advanced) "Global regular expression print"
 ```
 grep 
 -a read binary file
