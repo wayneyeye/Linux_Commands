@@ -11,6 +11,8 @@ zcat to read zipped text file
 bunzip2 to unzip
 use the same args as gzip
 
-
-
+#3 zip  --used for compatibility with Windows
+zip -r file.zip folder
+unzip file.zip
+ls -l /etc/ |zip ls-etc.zip - #get files from pipeline
 
