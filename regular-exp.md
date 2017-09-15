@@ -43,6 +43,15 @@ grep -n --color=auto '\.$' regular_express.txt  #\ to escape $ means end of line
 grep -n --color=auto '^$' regular_express.txt   #fetch blank lines
 grep -n --color=auto 'o\{2\}' regular_express.txt   #need to escape { and } in linux shell
 ```
+#### egrep (grep with extended regular expressions)
+```
+grep -E 'AAA|BBB' # or 
+grep -E '^(AAA|BBB|CCC)' # use parenthesis when combined with anchors
+grep -E '[:upper]*' # use * to repeat 0 or more (?--> 0 or 1, +--> 1 or more,{n,m}-->repeat between n or m times  )
+
+
+
+```
 
 #### sed (stream editor)
 ```
