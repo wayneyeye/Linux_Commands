@@ -49,10 +49,6 @@ grep -E 'AAA|BBB' # or
 grep -E '^(AAA|BBB|CCC)' # use parenthesis when combined with anchors
 grep -E '[:upper]*' # use * to repeat 0 or more (?--> 0 or 1, +--> 1 or more,{n,m}-->repeat between n or m times  )
 
-
-
-```
-
 #### sed (stream editor)
 ```
 sed [-nefr] operations [file]
@@ -65,7 +61,7 @@ sed [-nefr] operations [file]
 #### sed operations
 ```
 [n1[,n2]] function
-
+```
 
 
 function:
@@ -81,6 +77,14 @@ p: print
 s: replace using regex
 
 sed 's/old/new/g' #replace
+```
+
+#### regular-expression applications
+Generate random phone number book
+```
+for i in {1..1000}; do echo "(${RANDOM:0:3}) ${RANDOM:0:3}-${RANDOM:0:4}" >> phonelist.txt; done
+grep -Ev '^\([0-9]{3}\) [0-9]{3}-[0-9]{4}$' phonelist.txt 
+
 ```
 
 
