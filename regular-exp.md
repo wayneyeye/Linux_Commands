@@ -72,6 +72,8 @@ d: delete
 
 sed '/old/d'
 
+#### find with regex
+find . -regex '.*[^-_./0-9a-zA-Z].*'
 i: insert(before)
 p: print 
 s: replace using regex
@@ -86,5 +88,8 @@ for i in {1..1000}; do echo "(${RANDOM:0:3}) ${RANDOM:0:3}-${RANDOM:0:4}" >> pho
 grep -Ev '^\([0-9]{3}\) [0-9]{3}-[0-9]{4}$' phonelist.txt 
 
 ```
+
+#### find with regex support
+find . -regex '.*[^-_./0-9a-zA-Z].*'
 
 
