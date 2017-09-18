@@ -92,4 +92,7 @@ grep -Ev '^\([0-9]{3}\) [0-9]{3}-[0-9]{4}$' phonelist.txt
 #### find with regex support
 find . -regex '.*[^-_./0-9a-zA-Z].*'
 
+#### locate with regex support (locate and find are different, locate use a pre-built db)
+locate --regex 'bin/(bz|gz|zip)'
+
 
