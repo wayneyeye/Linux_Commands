@@ -33,4 +33,15 @@ ls -li|cut -c 1-5 --complement|cut -d ' ' -f 5
 
 # comm
 
+# sed stream editor
+echo "errand and"| sed 's/and/or/'
+# 1s/and/or/ line 1
+# s/and/or/g global
+sed -n 1!p ls-li.txt #skip first line and print all 
+# $ the last line
+# first~step
+# addr1, +n line addr1 to addr1+n
+# change date format from MM/DD/YYYY to YYYY-MM-DD
+sed 's/\([0-9]\{2\}\)\/\([0-9]\{2\}\)\/\([0-9]\{2\}\)\/\([0-9]\{4\}\)$/\3-\1-\2/'
+sed -i 'regexp1 ;  regexp2' foo.txt # processing multiple cmds 
 
