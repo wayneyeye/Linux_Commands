@@ -9,3 +9,12 @@ ls -li | fold -w 30 -s
 # -s for not spliting the last word in the line
 
 
+aa
+bb
+cc
+dd
+ee
+dd
+aa
+--
+

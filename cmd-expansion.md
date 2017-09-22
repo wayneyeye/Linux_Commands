@@ -1,3 +1,18 @@
+# numerical calculation expansion
+echo $(($((1+1))**4))
+
+#{}expansion
+echo number_{1..10}
+echo {Z..A}
+
+echo {A{1,2},B{3,4}}
+echo {2009..2011}-0{1..9} {2009..2011}-{10..12}
+
+#double and single quotes
+echo $(which cp)
+echo "which cp"
+echo "$USER $(which cp)"
+echo '$USER $(which cp)'
 #!/bin/bash
 a="foo"
 echo "${a}_file"
