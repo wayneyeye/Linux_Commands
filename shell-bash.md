@@ -307,6 +307,26 @@ else
 fi
 ```
 
+#### test expression
+## file expression
+## string expression
+## interger value expression
+
+### [[ expression ]]
+## [[ string1 =~ regex]]  ## regular expression support
+## [[ $file = *.c ]] ## support path_name wildcard
+
+### (( expression ))
+```
+INT=-5
+if [[ "$INT" =~ ^-?[0-9]+$ ]]; then
+if  (( INT == 0 )); then
+echo "INT is zero."
+else 
+if (( INT < 0 )); then
+echo "INT is negative."
+```
+
 #### case esca
 ```
 case $varname in
@@ -327,7 +347,7 @@ esac
 #### function
 ```
 # functions need to be declared at the begining of a script
-function funname() {
+function funct() {
 	
 }
 
