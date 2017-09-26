@@ -382,8 +382,17 @@ do
 done
 ```
 #### while loops take standard inputs
+```
 cat phonelist.txt|while read number1 number2 ; do echo $number2 done
-
+```
+#### processing more than 10 parameters
+```
+while [[ $# -gt 0 ]]; do
+    echo "Argument $count = $1"
+    count=$((count+1))
+    shift
+done
+```
 #### shell-scripts syntax check and debugging
 ```
 bash [-nvx] scriptname
