@@ -13,4 +13,6 @@ read var1 var2 var3 var4 var5
 -s read secret
 
 ```
+# however, read can not be pipelined
+# in a child shell, read without specified variable name will be assigned to a local variable $REPLY
 
