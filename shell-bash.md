@@ -381,6 +381,8 @@ do
 
 done
 ```
+#### while loops take standard inputs
+cat phonelist.txt|while read number1 number2 ; do echo $number2 done
 
 #### shell-scripts syntax check and debugging
 ```
