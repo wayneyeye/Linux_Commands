@@ -371,12 +371,20 @@ do
 
 done 
 
+for var in {A..D}; do
+echo $var;
+done
+
+for dir in d*.txt; do
+echo $dir
+done
+
 for var in (seq 1 100)
-do 
+do  
 
 done
 
-for ((i=1;i<=100;i=i+1))
+for ((i=1;i<=100;i=i+1)) // c flavored for loop syntax
 do
 
 done
