@@ -1,5 +1,4 @@
 # Linux_Commands
-
 ## The folder is for archieving Useful linux commands and shell scripts. 
 
 - linux-cmd.md -----------------------basic linux cmds*
@@ -17,3 +16,4 @@
 - zip-unzip.md --------------------------- file/tarball compression and extraction
 - linux-lookup.md --------------------------- find and locate file using find, locate
 - format-text.md --------------------------- format/sort text output
+- bash-array.md --------------------------- use arrays in linux bash
