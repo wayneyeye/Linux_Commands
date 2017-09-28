@@ -17,3 +17,5 @@
 - linux-lookup.md --------------------------- find and locate file using find, locate
 - format-text.md --------------------------- format/sort text output
 - bash-array.md --------------------------- use arrays in linux bash
+- other-topics.md --------------------------- subprocess sub, trap, async executing, named pipe(fifo) 
+

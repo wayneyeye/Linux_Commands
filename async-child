@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "Child: child is running..."
+sleep 5
+echo "Chiled: child is done. Exiting..."

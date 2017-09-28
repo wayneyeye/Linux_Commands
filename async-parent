@@ -1,0 +1,13 @@
+#!/bin/bash
+echo "Parent starting..."
+echo "Launching child..."
+./async-child & ## child is running in the background
+pid=$!
+echo "Parent: child (PID=$pid) launched."
+echo "parent: continuing..."
+sleep 1
+
+echo "Parent: pausing to wait for child to finish..."
+wait $pid
+echo "Parent:child is finished."
+echo "Exiting"
