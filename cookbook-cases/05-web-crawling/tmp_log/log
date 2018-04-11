@@ -1,0 +1,66 @@
+--2018-04-11 09:20:35--  http://www.google.com/
+Resolving www.google.com (www.google.com)... 172.217.12.68, 2607:f8b0:4000:803::2004
+Connecting to www.google.com (www.google.com)|172.217.12.68|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘tmp_download/google.html’
+
+     0K ..........                                             16.7M=0.001s
+
+2018-04-11 09:20:35 (16.7 MB/s) - ‘tmp_download/google.html’ saved [10620]
+
+--2018-04-11 09:24:01--  http://www.google.com/
+Resolving www.google.com (www.google.com)... 172.217.12.68, 2607:f8b0:4000:814::2004
+Connecting to www.google.com (www.google.com)|172.217.12.68|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘tmp_download/google.html’
+
+     0K ..........                                             33.8M=0s
+
+2018-04-11 09:24:01 (33.8 MB/s) - ‘tmp_download/google.html’ saved [10649]
+
+--2018-04-11 09:24:52--  http://www.google.com/
+Resolving www.google.com (www.google.com)... 216.58.194.100, 2607:f8b0:4000:814::2004
+Connecting to www.google.com (www.google.com)|216.58.194.100|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘tmp_download/google.html’
+
+     0K ..........                                             15.2M=0.001s
+
+2018-04-11 09:24:53 (15.2 MB/s) - ‘tmp_download/google.html’ saved [10613]
+
+--2018-04-11 09:36:40--  http://www.google.com/
+Resolving www.google.com (www.google.com)... 172.217.12.68, 2607:f8b0:4000:803::2004
+Connecting to www.google.com (www.google.com)|172.217.12.68|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘tmp_download/google.html’
+
+     0K ..........                                             16.4M=0.001s
+
+2018-04-11 09:36:40 (16.4 MB/s) - ‘tmp_download/google.html’ saved [10672]
+
+--2018-04-11 09:37:43--  http://www.google.com/
+Resolving www.google.com (www.google.com)... 172.217.14.164, 2607:f8b0:4000:80b::2004
+Connecting to www.google.com (www.google.com)|172.217.14.164|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘tmp_download/google.html’
+
+     0K ..........                                             7.10M=0.001s
+
+2018-04-11 09:37:43 (7.10 MB/s) - ‘tmp_download/google.html’ saved [10691]
+
+--2018-04-11 09:38:31--  http://www.google.com/
+Resolving www.google.com (www.google.com)... 172.217.9.132, 2607:f8b0:4000:80b::2004
+Connecting to www.google.com (www.google.com)|172.217.9.132|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/html]
+Saving to: ‘tmp_download/google.html’
+
+     0K ..........                                             15.8M=0.001s
+
+2018-04-11 09:38:31 (15.8 MB/s) - ‘tmp_download/google.html’ saved [10646]
+
