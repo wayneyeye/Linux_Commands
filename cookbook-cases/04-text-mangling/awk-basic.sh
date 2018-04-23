@@ -11,3 +11,12 @@ awk '{print $1 " " $2 }' access_log > /dev/null
 
 # do summation using awk
 seq 10 | awk 'BEGIN {sum=0} {sum+=$1} END{print "Total: " sum}'
+
+# awk with filter patterns
+awk 'NR < 5' access_log # first 4 lines
+awk '/favicon/' access_log #find regex
+
+# set delimiter
+awk -F: '{print $1 " " $2}' access_log
+
+
