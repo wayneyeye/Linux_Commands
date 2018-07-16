@@ -35,8 +35,8 @@ killall -signal PID (kill all processes initiated by a certain process)
 ctrl+z # bring front work to background
 jobs # check background works
 scrpt ends with & will run at bg
-bg run background work
-kill -signal %jobnumber # notice the difference!
+bg run background work (place an & at the end of a cmd)
+kill -signal %jobnumber # notice the difference! 
 nice, renice # adjust process priority values
 ```
 
