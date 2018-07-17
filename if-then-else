@@ -1,0 +1,45 @@
+# if cmdA then cmdB
+if command # if the returned value is zero (success)
+	   # else
+then 
+	commands
+else
+	commands
+fi
+
+if command # if the returned value is zero (success)
+	   # else
+then 
+	commands
+elif    command
+then
+	commands
+fi
+
+# if test condition then cmds
+if [ condition ]
+# integer comparison -eq -ge -gt -le -lt -ne
+# string comparison = != < > # REQURE \ before < or > 
+# -n null 
+# -z zero length
+# filesystem comparison
+# -d 
+# -e
+# -f
+# -r
+# -s null?
+# -w writable
+# -x executable
+# -O owned by current user
+# -G owned by current user's group
+# file1 -nt file2 newer than (need to check existence first)
+# file1 ot file2 older than (need to check existence first)
+
+then
+	command
+fi
+
+# please note that shell-bash can only support interger comparison
+
+
+
